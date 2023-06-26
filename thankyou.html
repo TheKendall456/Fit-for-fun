@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Fit for Fun</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    
+<body>
+    <header>
+            <div class="logo">
+                <img src="fitness-logo.webp" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="Classes.html">Classes</a></li>
+                    <li><a href="info.html">Information</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <article>
+        <h1></h1>
+
+    </article>
+    <h1>Thank You for Your Submission!</h1>
+ 
+
+  <script>
+    window.onload = function () {
+      var urlParams = new URLSearchParams(window.location.search);
+      var firstName = urlParams.get('firstName');
+      var lastName = urlParams.get('lastName');
+      var email = urlParams.get('email');
+      var phone = urlParams.get('phone');
+      var bestWayToReach = urlParams.get('bestWayToReach');
+      var classes = urlParams.getAll('classes[]');
+      var classTime = urlParams.get('classTime');
+  
+      document.getElementById('firstName').textContent = firstName;
+      document.getElementById('lastName').textContent = lastName;
+      document.getElementById('email').textContent = email;
+      document.getElementById('phone').textContent = phone;
+      document.getElementById('bestWayToReach').textContent = bestWayToReach;
+      document.getElementById('classes').textContent = classes.join(', ');
+      document.getElementById('classTime').textContent = classTime;
+    };
+  </script>
+  
+  <h3>
+    <strong>First Name:</strong> <span id="firstName"></span><br>
+    <strong>Last Name:</strong> <span id="lastName"></span><br>
+    <strong>Email:</strong> <span id="email"></span><br>
+    <strong>Phone:</strong> <span id="phone"></span><br>
+    <strong>Best Way to Reach:</strong> <span id="bestWayToReach"></span><br>
+    <strong>Classes Offered:</strong> <span id="classes"></span><br>
+    <strong>Preferred Class Time:</strong> <span id="classTime"></span>
+  </h3>
+    <footer>
+        <h6>
+            Phone:  <a href="tel:+417-445-6940">417-445-6940</a> -
+              Location: 321 E Playground Street -
+               Email: <a href="mailto:FitForFun@Gmail.com">FitForFun@Gmail.com</a>
+         </h6>
+    </footer>
+
+</body>
+
+</html>

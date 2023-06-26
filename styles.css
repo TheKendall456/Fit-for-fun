@@ -1,0 +1,139 @@
+.logo {
+    display: inline-block;
+    width: 100px;/* Adjust the width automatically based on the image size */
+    height: 90px; /* Adjust the height as needed */
+    background-color: #FFF; /* Background color for the logo */
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+
+
+
+  
+  body{
+   background-color: rgb(36, 41, 39);
+   display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+  footer {
+    background-color: #FFF; /* white background color for the footer */
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    margin-top: auto;
+    text-align: center;
+    
+  }
+  h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+  }
+  h2{
+    color: #FFF;
+    padding-left: 10px;
+  }
+  p{
+    color: #FFF;
+    text-indent: 30px;
+    padding-left:  10px;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    color: #FFF; /* White text color */
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+  }
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(1, 4, 11); /* Box background color */
+  color: #d7dfee; /* Box text color */
+  text-decoration: none;
+}
+nav ul li {
+margin-right: 10px;
+}
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+h6{
+    font-size: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #FFF;
+  }
+  td{
+    padding: 1px;
+  }
+
+  th{
+    padding: 8px;
+     font-size: .5em;
+  }
+  h5{
+    color: #adb1b9;
+  }
+  h4, h5 {
+    margin-bottom: 0;
+    font-size: .6em;
+  }
+
+  label{
+    color: #c52020;
+    
+  }
+
+  strong{
+    color: #c52020;
+  }
+
+  h3{
+    color: #FFF;
+  }
+
+  .image-container1 {
+    display: flex; /* Use flexbox to create a flexible container */
+    align-items: center; /* Align items vertically in the center */
+    width: auto; /* Set the width to auto to adjust based on content */
+    height: auto;
+  }
+
+
+  .image-container1 img {
+    margin-right: 10px; /* Add some margin to create space between the image and paragraph */
+  }
+
+  .image-container2 {
+    display: flex; /* Use flexbox to create a flexible container */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-end;
+    
+  }
+
+  .image-container2 img {
+    margin-right: 10px; /* Add some margin to create space between the image and paragraph */
+  }
+ 
